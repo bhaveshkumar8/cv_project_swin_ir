@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SwinIR: Image Restoration Using Swin Transformer
 [Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Guolei Sun](https://vision.ee.ethz.ch/people-details.MjYzMjMw.TGlzdC8zMjg5LC0xOTcxNDY1MTc4.html), [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en), [Radu Timofte](http://people.ee.ethz.ch/~timofter/)
 
@@ -252,3 +253,7 @@ on color images
 
 ## License and Acknowledgement
 This project is released under the Apache 2.0 license. The codes are based on [Swin Transformer](https://github.com/microsoft/Swin-Transformer) and [KAIR](https://github.com/cszn/KAIR). Please also follow their licenses. Thanks for their awesome works.
+=======
+# cv_project_swin_ir
+Swir Ir model modified implementation
+>>>>>>> origin/main

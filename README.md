@@ -1,18 +1,6 @@
 # SwinIR: Image Restoration Using Swin Transformer
-[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Guolei Sun](https://vision.ee.ethz.ch/people-details.MjYzMjMw.TGlzdC8zMjg5LC0xOTcxNDY1MTc4.html), [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en), [Radu Timofte](http://people.ee.ethz.ch/~timofter/)
 
-Computer Vision Lab, ETH Zurich
-
----
-
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.10257)
-[![GitHub Stars](https://img.shields.io/github/stars/JingyunLiang/SwinIR?style=social)](https://github.com/JingyunLiang/SwinIR)
-[![download](https://img.shields.io/github/downloads/JingyunLiang/SwinIR/total.svg)](https://github.com/JingyunLiang/SwinIR/releases)
-![visitors](https://visitor-badge.glitch.me/badge?page_id=jingyunliang/SwinIR)
-[ <a href="https://colab.research.google.com/gist/JingyunLiang/a5e3e54bc9ef8d7bf594f6fee8208533/swinir-demo-on-real-world-image-sr.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>](https://colab.research.google.com/gist/JingyunLiang/a5e3e54bc9ef8d7bf594f6fee8208533/swinir-demo-on-real-world-image-sr.ipynb)
-<a href="https://replicate.ai/jingyunliang/swinir"><img src="https://img.shields.io/static/v1?label=Replicate&message=Demo and Docker Image&color=blue"></a>
-[![PlayTorch Demo](https://github.com/facebookresearch/playtorch/blob/main/website/static/assets/playtorch_badge.svg)](https://playtorch.dev/snack/@playtorch/swinir/)
-[Gradio Web Demo](https://huggingface.co/spaces/akhaliq/SwinIR)
+--
 
 This repository is the official PyTorch implementation of SwinIR: Image Restoration Using Shifted Window Transformer
 ([arxiv](https://arxiv.org/pdf/2108.10257.pdf), [supp](https://github.com/JingyunLiang/SwinIR/releases), [pretrained models](https://github.com/JingyunLiang/SwinIR/releases), [visual results](https://github.com/JingyunLiang/SwinIR/releases)). SwinIR achieves **state-of-the-art performance** in
@@ -61,8 +49,6 @@ for video SR, video deblurring, video denoising, video frame interpolation and s
 1. [Training](#Training)
 1. [Testing](#Testing)
 1. [Results](#Results)
-1. [Citation](#Citation)
-1. [License and Acknowledgement](#License-and-Acknowledgement)
 
 
 ### Training
@@ -239,16 +225,3 @@ on color images
 | LIVE1        |       40       |   32.75    |    32.12     |   0.9174   |
 </details>
 
-
-
-## Citation
-    @article{liang2021swinir,
-      title={SwinIR: Image Restoration Using Swin Transformer},
-      author={Liang, Jingyun and Cao, Jiezhang and Sun, Guolei and Zhang, Kai and Van Gool, Luc and Timofte, Radu},
-      journal={arXiv preprint arXiv:2108.10257},
-      year={2021}
-    }
-
-
-## License and Acknowledgement
-This project is released under the Apache 2.0 license. The codes are based on [Swin Transformer](https://github.com/microsoft/Swin-Transformer) and [KAIR](https://github.com/cszn/KAIR). Please also follow their licenses. Thanks for their awesome works.
